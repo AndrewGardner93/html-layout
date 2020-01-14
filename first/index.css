@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+    width: 100vw;
+    height: 50vh;
+    background-color: gainsboro;
+}
+
+.box {
+    height: 100px;
+    width: 100vw;
+    background-color:gray;
+    border-width: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+   
+    
+
+}
+
+.biggerbox{
+    height: 75vh;
+    width: 75%;
+    background-color:white;
+    margin-left: 15%;
+    
+    
+}
+
+
+.footer {
+    height: 10vh;
+    width: 75%;
+    background-color:black;
+    margin-left: 15%;
+}
+
+
+

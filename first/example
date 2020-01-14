@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="best website ever made">
+    <meta name="keywords" content="greatest, best">
+    <meta name="author" content="matias perez-ferrero">
+    <link rel="shortcut icon"
+        href="https://library.kissclipart.com/20180908/zae/kissclipart-robot-icon-clipart-robot-computer-icons-asimo-11e71de5a93fb737.jpg" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>#1 Website</title>
+</head>
+<body>
+    <header>
+        <img src="https://library.kissclipart.com/20180908/zae/kissclipart-robot-icon-clipart-robot-computer-icons-asimo-11e71de5a93fb737.jpg"
+            style="height: 50px; width: 50px" />
+        <h1 class="header">The Ultimate Website</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="header" id="main">Main</h2>
+        <section>
+            <p>Here's the main section of my page</p>
+            <p>This is the second paragraph element of this section</p>
+            <p>This is the third paragraph element of this section</p>
+        </section>
+    </main>
+    <input type="text" placeholder="Type anything" />
+    <input type="password" placeholder="Password" />
+    <input type="number" placeholder="Number" />
+    <div>
+        <h3 class="header">Another Section</h3>
+        <section><span>Here's another section of my page.</span><span> These sentences are all on one line, unlike
+                my paragraphs above.</span><span> That's
+                because these sentences were made with span tags, which are "inline" elements, as opposed to "block"
+                elements</span>
+        </section>
+    </div>
+    <button>Click me!</button><button>No, click me!</button>
+    <div>
+        <h2>Box and Circle</h2>
+        <div class="box border-box"></div>
+        <div class="box"></div>
+        <div class="circle border-box"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
+12:41
+/* * {
+   margin: 0;
+   padding: 0; 
+} */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+body {
+    background-color: blanchedalmond;
+    color: rebeccapurple;
+}
+.header {
+    color: indianred;
+}
+#main {
+    color: chartreuse;
+}
+.button {
+    background-color: hotpink;
+}
+button:hover {
+    background-color: cadetblue;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    border: solid 2px red;
+    /* padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10x;
+    /* margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 50px; */
+    margin: 10px 50px; 
+    text-align: center;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+}
