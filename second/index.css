@@ -1,0 +1,73 @@
+
+.solidbox{
+    height: 25vh;
+    width: 92vw;
+    background-color:white;
+    border-style: solid;
+    padding-right: 5%;
+
+}
+
+.box{
+    height: 25vh;
+    width: 92vw;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: white;
+    padding-right: 5%;
+    margin-top: 5%
+}
+
+.rectangle{
+    height: 20vh;
+    width: 5vw;
+    background-color: purple;
+    display: inline-block;
+
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.greeny {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.bottom-box {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 25px auto; 
+    text-align: center;
+
+}
+
+.box-shadow {
+    width: 80vw;
+    height: 200px;
+    background-color: blanchedalmond;
+    margin: 50px auto;
+    box-shadow: 8px 8px 8px black;
+}
+
+P {
+    font-size: 30px;
+    color: navy;
+}
+
+
+
+
+
